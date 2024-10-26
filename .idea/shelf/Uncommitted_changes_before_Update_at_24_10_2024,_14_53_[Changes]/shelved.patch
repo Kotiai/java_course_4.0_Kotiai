@@ -1,0 +1,84 @@
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1729770527228)
++++ b/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch	(date 1729770527228)
+@@ -0,0 +1,74 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4ca42af2-a01a-443d-9780-794eba66e8b1\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 8\n}</component>\n  <component name=\"ProjectId\" id=\"2nOZDOAunkB1YrSsNw1YJMpnAXr\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"TestNG.StudentTest.executor\": \"Run\",\n    \"git-widget-placeholder\": \"java-basics-oop-p2\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/vasyl.kotiai/Documents/Git_1/java_course_4.0_Kotiai\",\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\"\n  }\n}]]></component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"java_course_4.0_Kotiai\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"java_course_4.0_Kotiai\" />\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4ca42af2-a01a-443d-9780-794eba66e8b1\" name=\"Changes\" comment=\"\" />\n      <created>1728845963528</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1728845963528</updated>\n    </task>\n    <servers />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 908960208156a90b96e03a8d4a07138fc1c06516)
+++++ b/.idea/workspace.xml	(date 1729770498276)
++@@ -4,15 +4,18 @@
++     <option name="autoReloadType" value="SELECTIVE" />
++   </component>
++   <component name="ChangeListManager">
++-    <list default="true" id="4ca42af2-a01a-443d-9780-794eba66e8b1" name="Changes" comment="">
++-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++-    </list>
+++    <list default="true" id="4ca42af2-a01a-443d-9780-794eba66e8b1" name="Changes" comment=".." />
++     <option name="SHOW_DIALOG" value="false" />
++     <option name="HIGHLIGHT_CONFLICTS" value="true" />
++     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++     <option name="LAST_RESOLUTION" value="IGNORE" />
++   </component>
++   <component name="Git.Settings">
+++    <option name="RECENT_BRANCH_BY_REPOSITORY">
+++      <map>
+++        <entry key="$PROJECT_DIR$" value="java-basics-oop-p1" />
+++      </map>
+++    </option>
++     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++   </component>
++   <component name="ProjectColorInfo">{
++@@ -23,31 +26,16 @@
++     <option name="hideEmptyMiddlePackages" value="true" />
++     <option name="showLibraryContents" value="true" />
++   </component>
++-  <component name="PropertiesComponent"><![CDATA[{
++-  "keyToString": {
++-    "RunOnceActivity.ShowReadmeOnStart": "true",
++-    "TestNG.StudentTest.executor": "Run",
++-    "git-widget-placeholder": "java-basics-oop-p2",
++-    "kotlin-language-version-configured": "true",
++-    "last_opened_file_path": "/Users/vasyl.kotiai/Documents/Git_1/java_course_4.0_Kotiai",
++-    "settings.editor.selected.configurable": "preferences.lookFeel"
++-  }
++-}]]></component>
++-  <component name="RunManager">
++-    <configuration default="true" type="JetRunConfigurationType">
++-      <module name="java_course_4.0_Kotiai" />
++-      <method v="2">
++-        <option name="Make" enabled="true" />
++-      </method>
++-    </configuration>
++-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++-      <module name="java_course_4.0_Kotiai" />
++-      <option name="filePath" />
++-      <method v="2">
++-        <option name="Make" enabled="true" />
++-      </method>
++-    </configuration>
++-  </component>
+++  <component name="PropertiesComponent">{
+++  &quot;keyToString&quot;: {
+++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+++    &quot;TestNG.StudentTest.executor&quot;: &quot;Run&quot;,
+++    &quot;git-widget-placeholder&quot;: &quot;java-basics-oop-p2&quot;,
+++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+++    &quot;last_opened_file_path&quot;: &quot;/Users/vasyl.kotiai/Documents/Git_1/java_course_4.0_Kotiai&quot;,
+++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+++  }
+++}</component>
++   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++   <component name="TaskManager">
++     <task active="true" id="Default" summary="Default task">
