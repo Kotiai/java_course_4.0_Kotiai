@@ -21,8 +21,10 @@ public class RegExpTest {
                 {" Invalid IP: 256.256.256.256!", ""},
                 {"invalid:256.256.256.256", ""},
                 {"valid IP: 255.255.255.255!", "255.255.255.255"},
-                {"invalid:255.255.255.255", "255.255.255.255"}
+                {"invalid:255.255.255.255", "255.255.255.255"},
                 // TODO add 2 more test data here
+                {"The SSID of the device AP is: 192.168.16.1", "192.168.16.1"},
+                {"The SSID of your home AP: 192.168.17.455", ""}
         };
     }
 
