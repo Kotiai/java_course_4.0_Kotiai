@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * ArrayUtil exercises.
  */
@@ -12,6 +15,14 @@ public class ArrayUtil {
      */
     public static String[] findCommon(String[] array1, String[] array2) {
         // TODO fill in code here
-        return new String[0];
+        List<String> commonElements = new ArrayList<>();
+        for (String i : array1){
+            for (String j : array2){
+                if (i.equals(j) && !commonElements.contains(i)){
+                    commonElements.add(i);
+                }
+            }
+        }
+        return commonElements.toArray(new String[0]);
     }
 }
