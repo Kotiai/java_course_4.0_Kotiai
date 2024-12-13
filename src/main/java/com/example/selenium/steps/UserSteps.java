@@ -3,6 +3,7 @@ package com.example.selenium.steps;
 import com.example.selenium.pages.LoginPage;
 import com.example.selenium.pages.MainPage;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 public class UserSteps {
     private WebDriver driver;
@@ -20,8 +21,8 @@ public class UserSteps {
                 .clickLogin();
 
         //  TODO assert title
-        //MainPage mainPage = new MainPage(driver);
-        //Assert.assertEquals(mainPage.getTitle(), "Secure Area", "Login failed");
+        MainPage mainPage = new MainPage(driver);
+        Assert.assertEquals(mainPage.getTitle(), "Secure Area", "Login failed");
         return this;
     }
 
