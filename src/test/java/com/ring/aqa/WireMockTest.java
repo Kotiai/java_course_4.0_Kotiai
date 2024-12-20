@@ -16,7 +16,7 @@ import static com.github.tomakehurst.wiremock.client.WireMock.proxyAllTo;
 import static com.github.tomakehurst.wiremock.client.WireMock.stubFor;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 
-public class WireMockTest {
+public class  WireMockTest {
     WireMockServer wireMockServer;
 
     @BeforeClass
